@@ -3,8 +3,8 @@ package clean
 import (
 	"fmt"
 
-	"github.com/pashkov256/deletor/internal/tui/interfaces"
-	"github.com/pashkov256/deletor/internal/tui/tabs/base"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/interfaces"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/tabs/base"
 )
 
 // CleanTabManager manages the tabs for the clean view
