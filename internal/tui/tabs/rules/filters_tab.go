@@ -7,8 +7,8 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/pashkov256/deletor/internal/tui/interfaces"
-	"github.com/pashkov256/deletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/interfaces"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
 )
 
 type FiltersTab struct {
