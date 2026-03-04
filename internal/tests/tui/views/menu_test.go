@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui/views"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/views"
 )
 
 func setupMenuTestModel() *views.MainMenu {
