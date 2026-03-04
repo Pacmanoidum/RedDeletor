@@ -7,8 +7,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/pashkov256/deletor/internal/cache"
-	"github.com/pashkov256/deletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/cache"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
 )
 
 func TestNewCacheManager_InitializesCorrectLocations(t *testing.T) {
