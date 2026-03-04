@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/pashkov256/deletor/internal/logging"
+	"github.com/Pacmanoidum/RedDeletor/internal/logging"
 )
 
 type FileStorage struct {
