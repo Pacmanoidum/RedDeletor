@@ -11,13 +11,13 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 	zone "github.com/lrstanley/bubblezone"
-	rules "github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui/errors"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	rulesTab "github.com/pashkov256/deletor/internal/tui/tabs/rules"
-	"github.com/pashkov256/deletor/internal/utils"
-	"github.com/pashkov256/deletor/internal/validation"
+	rules "github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/errors"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	rulesTab "github.com/Pacmanoidum/RedDeletor/internal/tui/tabs/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 )
 
 // RulesModel represents the rules management page
