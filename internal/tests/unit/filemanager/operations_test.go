@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/filemanager"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 type testFileManager struct{}
