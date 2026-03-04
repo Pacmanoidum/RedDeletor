@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/cli/config"
+	"github.com/Pacmanoidum/RedDeletor/internal/cli/config"
 	"github.com/stretchr/testify/assert"
 )
 
