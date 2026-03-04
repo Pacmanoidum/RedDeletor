@@ -3,10 +3,10 @@ package runner
 import (
 	tea "github.com/charmbracelet/bubbletea"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/pashkov256/deletor/internal/filemanager"
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui"
-	"github.com/pashkov256/deletor/internal/validation"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 )
 
 func RunTUI(
