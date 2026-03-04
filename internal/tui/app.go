@@ -2,13 +2,13 @@ package tui
 
 import (
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/pashkov256/deletor/internal/filemanager"
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/validation"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 
-	"github.com/pashkov256/deletor/internal/tui/menu"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	"github.com/pashkov256/deletor/internal/tui/views"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/menu"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/views"
 )
 
 type page int
