@@ -7,10 +7,10 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/views"
-	"github.com/pashkov256/deletor/internal/validation"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/views"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 )
 
 // setupTestModel creates a new RulesModel with test configuration
