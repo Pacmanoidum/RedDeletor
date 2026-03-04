@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 	"github.com/schollz/progressbar/v3"
 )
 
