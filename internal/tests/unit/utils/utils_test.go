@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pashkov256/deletor/internal/cli/output"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/cli/output"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 var printer = output.NewPrinter()
