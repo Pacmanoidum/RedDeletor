@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pashkov256/deletor/internal/validation"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 )
 
 func setupTestDir(t *testing.T) string {
