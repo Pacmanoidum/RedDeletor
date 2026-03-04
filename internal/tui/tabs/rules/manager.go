@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/pashkov256/deletor/internal/tui/interfaces"
-	"github.com/pashkov256/deletor/internal/tui/tabs/base"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/interfaces"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/tabs/base"
 )
 
 type RulesTabManager struct {
