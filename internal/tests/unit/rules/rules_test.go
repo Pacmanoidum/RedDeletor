@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/pashkov256/deletor/internal/path"
-	"github.com/pashkov256/deletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/path"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
 )
 
 // Setup a temporary directory to store test config file
