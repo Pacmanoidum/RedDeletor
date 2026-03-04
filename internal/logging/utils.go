@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pashkov256/deletor/internal/path"
+	"github.com/Pacmanoidum/RedDeletor/internal/path"
 )
 
 // GetLogFilePath returns the path to the application's log file
