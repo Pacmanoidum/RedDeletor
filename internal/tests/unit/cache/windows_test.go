@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/pashkov256/deletor/internal/cache"
+	"github.com/Pacmanoidum/RedDeletor/internal/cache"
 )
 
 func TestDeleteFileWithWindowsAPI(t *testing.T) {
