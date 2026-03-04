@@ -6,12 +6,12 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	zone "github.com/lrstanley/bubblezone"
-	rules "github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui/help"
-	"github.com/pashkov256/deletor/internal/tui/menu"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	"github.com/pashkov256/deletor/internal/utils"
+	rules "github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/help"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/menu"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 type MainMenu struct {
