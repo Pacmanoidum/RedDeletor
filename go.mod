@@ -1,4 +1,4 @@
-module github.com/pashkov256/deletor
+module github.com/Pacmanoidum/RedDeletor
 
 go 1.23.4
 
