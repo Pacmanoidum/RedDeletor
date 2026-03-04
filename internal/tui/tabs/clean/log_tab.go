@@ -7,11 +7,11 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/pashkov256/deletor/internal/logging"
-	"github.com/pashkov256/deletor/internal/tui/interfaces"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/logging"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/interfaces"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 type LogTab struct {
