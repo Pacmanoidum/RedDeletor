@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
 )
 
 func createTestFilesWithTimes(t *testing.T, root string, files map[string]struct {
