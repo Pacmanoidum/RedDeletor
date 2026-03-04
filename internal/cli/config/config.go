@@ -3,8 +3,8 @@ package config
 import (
 	"time"
 
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 // Config holds all command-line configuration options for the application
