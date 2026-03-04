@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/logging"
-	"github.com/pashkov256/deletor/internal/logging/storage"
+	"github.com/Pacmanoidum/RedDeletor/internal/logging"
+	"github.com/Pacmanoidum/RedDeletor/internal/logging/storage"
 )
 
 func setupTestStorage(t *testing.T) (*storage.FileStorage, string) {
