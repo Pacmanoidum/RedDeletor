@@ -10,13 +10,13 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/pashkov256/deletor/internal/cache"
-	"github.com/pashkov256/deletor/internal/filemanager"
-	rules "github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/tui/help"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/cache"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	rules "github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/help"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 type CacheModel struct {
