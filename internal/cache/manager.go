@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/pashkov256/deletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
 )
 
 // Manager handles cache operations for different operating systems
