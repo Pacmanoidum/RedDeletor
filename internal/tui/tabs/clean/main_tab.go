@@ -9,11 +9,11 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/pashkov256/deletor/internal/models"
-	"github.com/pashkov256/deletor/internal/tui/interfaces"
-	"github.com/pashkov256/deletor/internal/tui/options"
-	"github.com/pashkov256/deletor/internal/tui/styles"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/models"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/interfaces"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/styles"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 type MainTab struct {
