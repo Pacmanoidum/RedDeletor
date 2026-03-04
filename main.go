@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pashkov256/deletor/internal/cli/config"
-	"github.com/pashkov256/deletor/internal/filemanager"
-	"github.com/pashkov256/deletor/internal/rules"
-	"github.com/pashkov256/deletor/internal/runner"
-	"github.com/pashkov256/deletor/internal/validation"
+	"github.com/Pacmanoidum/RedDeletor/internal/cli/config"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/runner"
+	"github.com/Pacmanoidum/RedDeletor/internal/validation"
 )
 
 func main() {
