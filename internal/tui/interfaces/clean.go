@@ -4,9 +4,9 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/pashkov256/deletor/internal/filemanager"
-	"github.com/pashkov256/deletor/internal/models"
-	"github.com/pashkov256/deletor/internal/rules"
+	"github.com/Pacmanoidum/RedDeletor/internal/filemanager"
+	"github.com/Pacmanoidum/RedDeletor/internal/models"
+	"github.com/Pacmanoidum/RedDeletor/internal/rules"
 )
 
 // CleanModel defines the interface that models must implement to work with clean tabs
