@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/pashkov256/deletor/internal/tui/tabs/base"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/tabs/base"
 	"github.com/stretchr/testify/assert"
 )
 
