@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Bios-Marcel/wastebasket/v2"
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 // WalkFilesWithFilter traverses files in a directory with concurrent processing
