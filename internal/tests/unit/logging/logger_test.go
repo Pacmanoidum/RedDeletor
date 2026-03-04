@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pashkov256/deletor/internal/logging"
+	"github.com/Pacmanoidum/RedDeletor/internal/logging"
 )
 
 // setupTestLogger creates a temporary logger for testing
