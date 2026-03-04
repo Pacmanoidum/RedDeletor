@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pashkov256/deletor/internal/path"
-	"github.com/pashkov256/deletor/internal/tui/options"
+	"github.com/Pacmanoidum/RedDeletor/internal/path"
+	"github.com/Pacmanoidum/RedDeletor/internal/tui/options"
 )
 
 // UpdateRules applies the provided options and saves the updated rules to file
