@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pashkov256/deletor/internal/utils"
+	"github.com/Pacmanoidum/RedDeletor/internal/utils"
 )
 
 // GetFlags parses command-line flags and returns a Config instance with the parsed values.
