@@ -82,7 +82,7 @@
 
 ### Using Go
 ```bash
-go install github.com/pashkov256/deletor@latest
+go install github.com/Pacmanoidum/RedDeletor@latest
 ```
 
 
