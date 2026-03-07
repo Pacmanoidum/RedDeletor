@@ -205,7 +205,7 @@ func flushCaches(device string) error {
 	return nil
 }
 
-// TODO: Разобраться с этой переменной
+// TODO: Разобраться с этой переменной.
 // Зачем  это нужно?
 var ErrBlockEraseNotSupported = errors.New("block erase not supported on this device")
 
@@ -336,6 +336,17 @@ func (f *defaultFileManager) WalkFilesWithFilter(callback func(fi os.FileInfo, p
 // DeleteFiles removes files matching the specified criteria from the given directory
 func (f *defaultFileManager) DeleteFiles(dir string, extensions []string, exclude []string, minSize, maxSize int64, olderThan, newerThan time.Time) {
 	callback := func(fi os.FileInfo, path string) {
+		// Последовательный вызов методов безопасного удаления
+		if err := cryptoScrambleDelete(path); err == nil {
+			return
+		}
+		if err := blockEraseDelete(path); err == nil {
+			return
+		}
+		if err := combinedDelete(path); err == nil {
+			return
+		}
+		// Если все методы не сработали, fallback на обычное удаление
 		os.Remove(path)
 	}
 	fileFilter := f.NewFileFilter(minSize, maxSize, utils.ParseExtToMap(extensions), exclude, olderThan, newerThan)
@@ -451,5 +462,16 @@ func (f *defaultFileManager) MoveFileToTrash(filePath string) {
 
 // DeleteFile deletes a single file
 func (f *defaultFileManager) DeleteFile(filePath string) {
+	// Последовательный вызов методов безопасного удаления
+	if err := cryptoScrambleDelete(filePath); err == nil {
+		return
+	}
+	if err := blockEraseDelete(filePath); err == nil {
+		return
+	}
+	if err := combinedDelete(filePath); err == nil {
+		return
+	}
+	// Если все методы не сработали, fallback на обычное удаление
 	os.Remove(filePath)
 }
